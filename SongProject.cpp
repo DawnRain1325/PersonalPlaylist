@@ -68,6 +68,7 @@ void PlaySong()
         }
         inFile.close();
         Sleep(5000);
+        system("cls");
     }
     else {
         cerr << "현재 뮤직플레이어에 없는 노래입니다. 메인화면으로 돌아갑니다." << endl;
