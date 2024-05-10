@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Singer">
+      <UniqueIdentifier>{27f4ea7f-3813-4eff-b19a-7439730d81d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\SingType">
+      <UniqueIdentifier>{4dc9bb0f-81aa-4dd4-8840-6b0e9b61e3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Singer">
+      <UniqueIdentifier>{9390d8e4-a1e1-4d22-82b5-75c796de9b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SingType">
+      <UniqueIdentifier>{d9c22e94-b869-4d86-8cc6-6fbbddfda909}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SongProject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ballad.cpp">
+      <Filter>소스 파일\SingType</Filter>
+    </ClCompile>
+    <ClCompile Include="Classic.cpp">
+      <Filter>소스 파일\SingType</Filter>
+    </ClCompile>
+    <ClCompile Include="Dance.cpp">
+      <Filter>소스 파일\SingType</Filter>
+    </ClCompile>
+    <ClCompile Include="IU.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="SingType.cpp">
+      <Filter>소스 파일\SingType</Filter>
+    </ClCompile>
+    <ClCompile Include="Singer.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="Nell.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="SevenTeen.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="TaeYeon.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="YounHa.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="Buzz.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>소스 파일\SingType</Filter>
+    </ClCompile>
+    <ClCompile Include="StrayKids.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="QWER.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="JangBeomJun.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="NewJeans.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+    <ClCompile Include="Psy.cpp">
+      <Filter>소스 파일\Singer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IU.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="Dance.h">
+      <Filter>헤더 파일\SingType</Filter>
+    </ClInclude>
+    <ClInclude Include="Classic.h">
+      <Filter>헤더 파일\SingType</Filter>
+    </ClInclude>
+    <ClInclude Include="Ballad.h">
+      <Filter>헤더 파일\SingType</Filter>
+    </ClInclude>
+    <ClInclude Include="Singer.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="SingType.h">
+      <Filter>헤더 파일\SingType</Filter>
+    </ClInclude>
+    <ClInclude Include="TaeYeon.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="YounHa.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="SevenTeen.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="Nell.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="Buzz.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>헤더 파일\SingType</Filter>
+    </ClInclude>
+    <ClInclude Include="StrayKids.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="JangBeomJun.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="NewJeans.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="Psy.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+    <ClInclude Include="QWER.h">
+      <Filter>헤더 파일\Singer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
