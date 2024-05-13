@@ -7,7 +7,7 @@ public:
     Classic();
     ~Classic();
 
-    void sing();
+    //void sing();
 
 
 };
