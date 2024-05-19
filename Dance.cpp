@@ -23,9 +23,9 @@ void Dance::sing()
 
 
 		const string dancetypeIU[6] = {
-		"¡¡¿∫ ≥Ø ","≥ª º’¿ª ¿‚æ∆" , "Blueming" ,
-		"Ω∫π∞º¬" , "«œ∑Á ≥°" , "Seceret(∫Òπ–)" };
-		cout << "æ∆¿Ã¿Ø : " << dancetypeIU[i] << endl;
+		"Ï¢ãÏùÄ ÎÇ† ","ÎÇ¥ ÏÜêÏùÑ Ïû°ÏïÑ" , "Blueming" ,
+		"Ïä§Î¨ºÏÖã" , "ÌïòÎ£® ÎÅù" , "Seceret(ÎπÑÎ∞Ä)" };
+		cout << "ÏïÑÏù¥Ïú† : " << dancetypeIU[i] << endl;
 	}
 
 	for (char i = 0; i < 6; i++)
@@ -33,9 +33,9 @@ void Dance::sing()
 
 
 		const string dancetypeTaeYeon[6] = {
-		"INVU","I(Feat.πˆπ˙¡¯∆Æ)" , "Time Lapse" ,
+		"INVU","I(Feat.Î≤ÑÎ≤åÏßÑÌä∏)" , "Time Lapse" ,
 		"Rain" , "U R" , "FINE" };
-		cout << "≈¬ø¨ : " << dancetypeTaeYeon[i] << endl;
+		cout << "ÌÉúÏó∞ : " << dancetypeTaeYeon[i] << endl;
 	}
 
 	for (char i = 0; i < 6; i++)
@@ -43,26 +43,26 @@ void Dance::sing()
 
 
 		const string dancetypeYounHa[6] = {
-		"π∞¿«ø©«‡","ø¿∏£∆Æ±∏∏ß" , "ªÏ∫∞" ,
-		"Truly" , "ªÁ∞«¿«¡ˆ∆Úº±" , "Blackhole" };
-		cout << "¿±«œ : " << dancetypeYounHa[i] << endl;
+		"Î¨ºÏùòÏó¨Ìñâ","Ïò§Î•¥Ìä∏Íµ¨Î¶Ñ" , "ÏÇ¥Î≥Ñ" ,
+		"Truly" , "ÏÇ¨Í±¥ÏùòÏßÄÌèâÏÑ†" , "Blackhole" };
+		cout << "Ïú§Ìïò : " << dancetypeYounHa[i] << endl;
 	}
 
 	for (char i = 0; i < 6; i++)
 	{
 		const string dancetypeSevenTeen[6] = {
-		"¡ˆ±› ≥Œ √£æ∆∞°∞Ì ¿÷æÓ","π⁄ºˆ" , "13ø˘¿« √„" ,
-		"πŸ∂˜∞≥∫Ò" , "Flower" , "ƒ∑«¡∆ƒ¿ÃæÓ" };
-		cout << "ºº∫Ï∆æ : " << dancetypeSevenTeen[i] << endl;
+		"ÏßÄÍ∏à ÎÑê Ï∞æÏïÑÍ∞ÄÍ≥† ÏûàÏñ¥","Î∞ïÏàò" , "13ÏõîÏùò Ï∂§" ,
+		"Î∞îÎûåÍ∞úÎπÑ" , "Flower" , "Ï∫†ÌîÑÌååÏù¥Ïñ¥" };
+		cout << "ÏÑ∏Î∏êÌã¥ : " << dancetypeSevenTeen[i] << endl;
 	}
 
 
 	for (char i = 0; i < 6; i++)
 	{
 		const string dancetypeBuzz[6] = {
-		"≥™ø°∞‘∑Œ ∂∞≥™¥¬ ø©«‡","»∞¡÷" , "13ø˘¿« √„" ,
-		"≥≤¿⁄∏¶ ∏Ù∂Û" , "∞°Ω√" , "ƒ∑«¡∆ƒ¿ÃæÓ" };
-		cout << "πˆ¡Ó : " << dancetypeBuzz[i] << endl;
+		"ÎÇòÏóêÍ≤åÎ°ú Îñ†ÎÇòÎäî Ïó¨Ìñâ","ÌôúÏ£º" , "13ÏõîÏùò Ï∂§" ,
+		"ÎÇ®ÏûêÎ•º Î™∞Îùº" , "Í∞ÄÏãú" , "Ï∫†ÌîÑÌååÏù¥Ïñ¥" };
+		cout << "Î≤ÑÏ¶à : " << dancetypeBuzz[i] << endl;
 	}
 
 	for (char i = 0; i < 6; i++)
@@ -70,15 +70,15 @@ void Dance::sing()
 		const string dancetypeNewjeans[6] = {
 		"Bubble_Gum","OMG" , "Attention" ,
 		"Gods" , "Get up" , "ETA" };
-		cout << "¥∫¡¯Ω∫ : " << dancetypeNewjeans[i] << endl;
+		cout << "Îâ¥ÏßÑÏä§ : " << dancetypeNewjeans[i] << endl;
 	}
 
 	for (char i = 0; i < 10; i++)
 	{
 		const string dancetypePsy[10] = {
-		"øπº˙¿Ãæﬂ","≥™∆»πŸ¡ˆ" , "√®««æ" ,
-		"æÓ∂Æ¿ª±Ó" , "≥´ø¯" , "Rightnow" , "Gentleman", "∞≠≥≤Ω∫≈∏¿œ" , "ø¨øπ¿Œ" , "Daddy"};
-		cout << "ΩŒ¿Ã : " << dancetypePsy[i] << endl;
+		"ÏòàÏà†Ïù¥Ïïº","ÎÇòÌåîÎ∞îÏßÄ" , "Ï±îÌîºÏñ∏" ,
+		"Ïñ¥Îï†ÏùÑÍπå" , "ÎÇôÏõê" , "Rightnow" , "Gentleman", "Í∞ïÎÇ®Ïä§ÌÉÄÏùº" , "Ïó∞ÏòàÏù∏" , "Daddy"};
+		cout << "Ïã∏Ïù¥ : " << dancetypePsy[i] << endl;
 	}
 	
 
